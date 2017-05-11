@@ -34,7 +34,7 @@ local current_dir='%F{blue}%~%f'
 
 # User and host
 #local user_host='%F{white}%n%f%F{242}@%m%f'
-local user_host='%F{242}%n@%m%f'
+local user_host='%F{yellow}%n@%m%f'
 
 # Final Prompt
 PROMPT="> ${current_dir}
